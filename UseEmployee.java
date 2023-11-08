@@ -58,6 +58,7 @@ public class UseEmployee {
 	
 	Map<Integer,Employee> varMap=emps.stream().collect(Collectors.toMap(a ->a.getId(), b -> b));
 	varMap.forEach((x,y) -> System.out.println(y));
+	System.out.println("The End");
 	
 	}
 	
